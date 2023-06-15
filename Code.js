@@ -49,7 +49,7 @@ function selectSheets() {
     // Create the UI for selecting the submissionSheetId
     var ui = SpreadsheetApp.getUi();
     var response = ui.prompt(
-        'Select the spreadsheets to source data from',
+        'Enter the ID of the submissionSheet to source data from',
         'Enter the ids of the spreadsheet:',
         ui.ButtonSet.OK_CANCEL);
     // Process the user's response.
@@ -63,7 +63,7 @@ function selectSheets() {
 // Create the UI for selecting the conferenceDataExportSheetId
     var ui = SpreadsheetApp.getUi();
     var response = ui.prompt(
-        'Select the spreadsheets to source data from',
+        'Enter the ID of the conferenceDataExportSheet to source data from',
         'Enter the ids of the spreadsheet:',
         ui.ButtonSet.OK_CANCEL);
     // Process the user's response.
